@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Podtoid Aural Extrusion Soundboard</title>
+        <link rel="stylesheet" href="/css/main.css"/>
+    </head>
+    <body>
+        <div id="Header">
+            {{ include("SoundboardBundle:Default:header.html.twig") }}
+        </div>
+        <div id="Content">{% block body %}{% endblock body %}</div>
+        <div id="Footer">
+            {{ include("SoundboardBundle:Default:footer.html.twig" ) }}
+        </div>
+    </body>
+</html>
