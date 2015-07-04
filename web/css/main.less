@@ -1,0 +1,67 @@
+@import "globals.less";
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,300,700,400);
+
+body {
+    background:  black;
+    color:       white;
+    font-family: 'Roboto', sans-serif;
+    font-size:   12pt;
+    padding:     0;
+    margin:      0;
+}
+
+.ButtonType {
+    padding:     0.5rem;
+    font-weight: bold;
+    color:       black;
+    text-align:  center;
+}
+
+#Header {
+    width:        100%;
+    max-width:    800px;
+    margin-left:  auto;
+    margin-right: auto;
+    #TitleImage img {
+        width:     100%;
+        max-width: 800px;
+        height:    auto;
+    }
+    #TopButtons {
+        display: flex;
+        #ButtonAbout, #ButtonStop {
+            flex: 2;
+            .ButtonType;
+        }
+        #ButtonAbout {
+            background: @pt-green;
+        }
+        #ButtonStop {
+            background: @pt-red;
+        }
+    }
+}
+
+#Footer, #Content {
+    width:        100%;
+    max-width:    800px;
+    margin-left:  auto;
+    margin-right: auto;
+    font-size:    0.8rem;
+    text-align:   center;
+    opacity:      0.6;
+    a {
+        color: white;
+    }
+}
+
+#Content {
+    background: #404040;
+    height:     100%;
+    min-height: 80% !important;
+}
+
+#Content:empty:before {
+    content: '\200b'; // unicode zero width space character
+    //content: 'turd'; // unicode zero width space character
+}
