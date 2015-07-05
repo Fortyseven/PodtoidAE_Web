@@ -78,8 +78,26 @@ html, body {
 #Content {
     background: #404040;
     min-height: 70%;
+    overflow:   hidden;
+    position:   relative;
 }
 
 #Content:empty:before {
     content: '\200b'; // unicode zero width space character
+}
+
+#CarouselContainer {
+//    width:      300%;
+    transition: all 0.5s;
+    position:   relative;
+    .page {
+        float: left;
+    }
+
+//    &:hover {
+//        //        background: red !important;
+//        position:  relative;
+//        transform: translateX(-33.333%);
+//
+//    }
 }

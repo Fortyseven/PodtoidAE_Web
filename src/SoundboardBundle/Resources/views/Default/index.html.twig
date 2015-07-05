@@ -1,35 +1,148 @@
 {% extends "::base.html.twig" %}
 {% block body %}
-    <div id="CategoryBanner">
-        <img src="/assets/images/header_holmes.jpg"/>
-    </div>
-    <div id="ButtonContainer">
-        <ul>
-            <li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>
+    <div id="CarouselContainer">
+        {% for category in data.category %}
+            <div class="page">
+                <div id="CategoryBanner">
+                    <img src={{ asset('assets/images/header_sterling.png') }}/>
+                </div>
+                <div id="ButtonContainer">
+                    <ul>
+                        {% for clip in category.clips %}
+                            <li class="sound_button" onclick="soundboard.PlaySound({{ clip.path }})">{{ clip.title }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
 
-            <li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>
+        {% endfor %}
+        {#<div class="page">#}
+        {#<div id="CategoryBanner">#}
+        {#<img src={{ asset('assets/images/header_sterling.png') }}/>#}
+        {#</div>#}
+        {#<div id="ButtonContainer">#}
+        {#<ul>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
 
-            <li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
 
-            <li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>
-            <li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
 
-        </ul>
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+        {#</ul>#}
+        {#</div>#}
+        {#</div>#}
+        {#<div class="page">#}
+        {#<div id="CategoryBanner">#}
+        {#<img src="{{ asset('assets/images/header_holmes.jpg') }}"/>#}
+        {#</div>#}
+        {#<div id="ButtonContainer">#}
+        {#<ul>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
 
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+        {#</ul>#}
+        {#</div>#}
+        {#</div>#}
+        {#<div class="page">#}
+        {#<div id="CategoryBanner">#}
+        {#<img src="{{ asset('assets/images/header_zimmerman.png') }}"/>#}
+        {#</div>#}
+        {#<div id="ButtonContainer">#}
+        {#<ul>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+        {#</ul>#}
+        {#</div>#}
+        {#</div>#}
+        {#<div class="page">#}
+        {#<div id="CategoryBanner">#}
+        {#<img src="{{ asset('assets/images/header_other.png') }}"/>#}
+        {#</div>#}
+        {#<div id="ButtonContainer">#}
+        {#<ul>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+
+        {#<li class="sound_button" onclick="soundboard.PlaySound(0)">What?</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(1)">When a nude man...</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(2)">Not that special</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(3)">Owls are hot</li>#}
+        {#<li class="sound_button" onclick="soundboard.PlaySound(4)">Every time I say "Wii"</li>#}
+        {#</ul>#}
+        {#</div>#}
+        {#</div>#}
     </div>
 {% endblock %}
