@@ -77,74 +77,79 @@
             $this->createClip( $manager, $other_id, "Theme 3-Zed Boss Battle (Lollipop Chainsaw)", "Theme-Zed", "other_theme_3.ogg" );
             $this->createClip( $manager, $other_id, "Theme 4-Rave On (Killer 7)", "Theme-Rave On", "other_theme_4.ogg" );
             $this->createClip( $manager, $other_id, "72", "YYY", "other_theme_6.ogg" );
-            $this->createClip( $manager, $other_id, "71", "YYY", "other_trent_skyrim.ogg" );
-            $this->createClip( $manager, $other_id, "70", "YYY", "other_womenwithwheels.ogg" );
+            $this->createClip( $manager, $other_id, "Trent-Took an arrow...", "Took an arrow...", "other_trent_skyrim.ogg" );
+            $this->createClip( $manager, $other_id, "Women who have wheels...", "Women with wheels", "other_womenwithwheels.ogg" );
 
-            $this->createClip( $manager, $sterling_id, "0", "YYY", "sterling_266_comeon.ogg" );
-            $this->createClip( $manager, $sterling_id, "1", "YYY", "sterling_266_doubleerections.ogg" );
-            $this->createClip( $manager, $sterling_id, "2", "YYY", "sterling_266_hotbod.ogg" );
-            $this->createClip( $manager, $sterling_id, "3", "YYY", "sterling_animalabuse.ogg" );
-            $this->createClip( $manager, $sterling_id, "4", "YYY", "sterling_burningcat.ogg" );
-            $this->createClip( $manager, $sterling_id, "5", "YYY", "sterling_burymeinthesand.ogg" );
-            $this->createClip( $manager, $sterling_id, "6", "YYY", "sterling_cantassume.ogg" );
-            $this->createClip( $manager, $sterling_id, "7", "YYY", "sterling_celebicon.ogg" );
-            $this->createClip( $manager, $sterling_id, "8", "YYY", "sterling_dafoe_democrat.ogg" );
-            $this->createClip( $manager, $sterling_id, "9", "YYY", "sterling_dafoe_farmeranimals.ogg" );
-            $this->createClip( $manager, $sterling_id, "10", "YYY", "sterling_dafoe_hellosun.ogg" );
-            $this->createClip( $manager, $sterling_id, "11", "YYY", "sterling_dafoe_heykids_alternate.ogg" );
-            $this->createClip( $manager, $sterling_id, "12", "YYY", "sterling_dafoe_heykids.ogg" );
-            $this->createClip( $manager, $sterling_id, "13", "YYY", "sterling_dafoe_heykids_short.ogg" );
-            $this->createClip( $manager, $sterling_id, "14", "YYY", "sterling_dafoe_horsenamedkeanu.ogg" );
-            $this->createClip( $manager, $sterling_id, "15", "YYY", "sterling_dafoe_justtobesure.ogg" );
-            $this->createClip( $manager, $sterling_id, "16", "YYY", "sterling_dafoe_skullfuck.ogg" );
-            $this->createClip( $manager, $sterling_id, "17", "YYY", "sterling_dafoe_whitegold.ogg" );
-            $this->createClip( $manager, $sterling_id, "18", "YYY", "sterling_dafoe_yeehaw.ogg" );
-            $this->createClip( $manager, $sterling_id, "19", "YYY", "sterling_disneyshead.ogg" );
-            $this->createClip( $manager, $sterling_id, "20", "YYY", "sterling_dogpiss.ogg" );
-            $this->createClip( $manager, $sterling_id, "21", "YYY", "sterling_drinktheshit.ogg" );
-            $this->createClip( $manager, $sterling_id, "22", "YYY", "sterling_ducktales_erection.ogg" );
-            $this->createClip( $manager, $sterling_id, "23", "YYY", "sterling_exactly.ogg" );
-            $this->createClip( $manager, $sterling_id, "24", "YYY", "sterling_fabrige_eggs.ogg" );
-            $this->createClip( $manager, $sterling_id, "25", "YYY", "sterling_fattyboomboom.ogg" );
-            $this->createClip( $manager, $sterling_id, "26", "YYY", "sterling_fight.ogg" );
-            $this->createClip( $manager, $sterling_id, "27", "YYY", "sterling_fuckssake.ogg" );
-            $this->createClip( $manager, $sterling_id, "28", "YYY", "sterling_generalvicinity.ogg" );
-            $this->createClip( $manager, $sterling_id, "29", "YYY", "sterling_giveashit.ogg" );
-            $this->createClip( $manager, $sterling_id, "30", "YYY", "sterling_goddamnitparker.ogg" );
-            $this->createClip( $manager, $sterling_id, "31", "YYY", "sterling_halflistening.ogg" );
-            $this->createClip( $manager, $sterling_id, "32", "YYY", "sterling_havago.ogg" );
-            $this->createClip( $manager, $sterling_id, "33", "YYY", "sterling_haventbeenbitten.ogg" );
-            $this->createClip( $manager, $sterling_id, "34", "YYY", "sterling_hormones.ogg" );
-            $this->createClip( $manager, $sterling_id, "35", "YYY", "sterling_inthemood.ogg" );
-            $this->createClip( $manager, $sterling_id, "36", "YYY", "sterling_jameson_ex.ogg" );
-            $this->createClip( $manager, $sterling_id, "37", "YYY", "sterling_jameson.ogg" );
-            $this->createClip( $manager, $sterling_id, "38", "YYY", "sterling_laugh1.ogg" );
-            $this->createClip( $manager, $sterling_id, "39", "YYY", "sterling_law_of_averages.ogg" );
-            $this->createClip( $manager, $sterling_id, "40", "YYY", "sterling_lazyfatcunt.ogg" );
-            $this->createClip( $manager, $sterling_id, "41", "YYY", "sterling_letdown.ogg" );
-            $this->createClip( $manager, $sterling_id, "42", "YYY", "sterling_lifeleavemybody.ogg" );
-            $this->createClip( $manager, $sterling_id, "43", "YYY", "sterling_massiveblackdildo.ogg" );
-            $this->createClip( $manager, $sterling_id, "44", "YYY", "sterling_mindmeld.ogg" );
-            $this->createClip( $manager, $sterling_id, "45", "YYY", "sterling_nogoodpieceofshit.ogg" );
-            $this->createClip( $manager, $sterling_id, "46", "YYY", "sterling_painus.ogg" );
-            $this->createClip( $manager, $sterling_id, "47", "YYY", "sterling_philcollins2.ogg" );
-            $this->createClip( $manager, $sterling_id, "48", "YYY", "sterling_philcollins.ogg" );
-            $this->createClip( $manager, $sterling_id, "49", "YYY", "sterling_podtoiddrinkinggame.ogg" );
-            $this->createClip( $manager, $sterling_id, "50", "YYY", "sterling_podtoidlisteners.ogg" );
-            $this->createClip( $manager, $sterling_id, "51", "YYY", "sterling_preposterous_videogame.ogg" );
-            $this->createClip( $manager, $sterling_id, "52", "YYY", "sterling_profuseapologies.ogg" );
-            $this->createClip( $manager, $sterling_id, "53", "YYY", "sterling_right.ogg" );
-            $this->createClip( $manager, $sterling_id, "54", "YYY", "sterling_scream.ogg" );
-            $this->createClip( $manager, $sterling_id, "55", "YYY", "sterling_sheepheadlock.ogg" );
-            $this->createClip( $manager, $sterling_id, "56", "YYY", "sterling_slapahorse.ogg" );
-            $this->createClip( $manager, $sterling_id, "57", "YYY", "sterling_song1.ogg" );
-            $this->createClip( $manager, $sterling_id, "58", "YYY", "sterling_song2_killtheworld.ogg" );
-            $this->createClip( $manager, $sterling_id, "59", "YYY", "sterling_song_hibbehdibbehdah.ogg" );
-            $this->createClip( $manager, $sterling_id, "60", "YYY", "sterling_suckadickatxmas.ogg" );
-            $this->createClip( $manager, $sterling_id, "61", "YYY", "sterling_suckaduckboner.ogg" );
-            $this->createClip( $manager, $sterling_id, "62", "YYY", "sterling_suckvideogames.ogg" );
-            $this->createClip( $manager, $sterling_id, "63", "YYY", "sterling_whyholmesspiderman.ogg" );
-            $this->createClip( $manager, $sterling_id, "64", "YYY", "sterling_yeeaaah.ogg" );
+            $this->createClip( $manager, $sterling_id, "Come on!", "", "sterling_266_comeon.ogg" );
+            $this->createClip( $manager, $sterling_id, "Yyyyyeeaaah!", "YEAH!", "sterling_yeeaaah.ogg" );
+            $this->createClip( $manager, $sterling_id, "Right?", "Right?", "sterling_right.ogg" );
+            $this->createClip( $manager, $sterling_id, "Scream", "Scream", "sterling_scream.ogg" );
+            $this->createClip( $manager, $sterling_id, "Laugh", "Laugh", "sterling_laugh1.ogg" );
+
+            $this->createClip( $manager, $sterling_id, "Double Erections", "", "sterling_266_doubleerections.ogg" );
+            $this->createClip( $manager, $sterling_id, "Melting Barstools", "Barstools", "sterling_266_hotbod.ogg" );
+            $this->createClip( $manager, $sterling_id, "Laughing at Animal Abuse", "Animal Abuse", "sterling_animalabuse.ogg" );
+            $this->createClip( $manager, $sterling_id, "Burning Cat", "", "sterling_burningcat.ogg" );
+            $this->createClip( $manager, $sterling_id, "Bury Me In The Sand Pit", "Sand Pit", "sterling_burymeinthesand.ogg" );
+            $this->createClip( $manager, $sterling_id, "Can't Assume Super Powers", "Super Powers", "sterling_cantassume.ogg" );
+            $this->createClip( $manager, $sterling_id, "Celebrity Icon", "", "sterling_celebicon.ogg" );
+            $this->createClip( $manager, $sterling_id, "Don't Forget To Vote", "Don't Forget", "sterling_dafoe_democrat.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - Farmer Animals", "Farmer Animals", "sterling_dafoe_farmeranimals.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - Say Hello To The Sun!", "Say Hello", "sterling_dafoe_hellosun.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - Hey Kids!", "Hey Kids", "sterling_dafoe_heykids_short.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - Hey Kids! (Long)", "Hey Kids Long", "sterling_dafoe_heykids.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - Hey Kids! (Alt)", "Hey Kids Alt", "sterling_dafoe_heykids_alternate.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - Horse Named Keanu", "Keanu Horse", "sterling_dafoe_horsenamedkeanu.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - Just To Be Sure...", "That IS Penis", "sterling_dafoe_justtobesure.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - Skull Fuck Your Mothers", "Skull Fuck", "sterling_dafoe_skullfuck.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - White Gold!", "White Gold", "sterling_dafoe_whitegold.ogg" );
+            $this->createClip( $manager, $sterling_id, "Dafoe - Yee haw!", "Yee haw!", "sterling_dafoe_yeehaw.ogg" );
+            $this->createClip( $manager, $sterling_id, "Kick Disney's Head Off Elephant", "Disney's Head", "sterling_disneyshead.ogg" );
+            $this->createClip( $manager, $sterling_id, "Given God's Power", "God's Power", "sterling_dogpiss.ogg" );
+            $this->createClip( $manager, $sterling_id, "So Happy I'm Pregnant", "I'm Pregnant", "sterling_drinktheshit.ogg" );
+            $this->createClip( $manager, $sterling_id, "Ducktales Erection", "", "sterling_ducktales_erection.ogg" );
+            $this->createClip( $manager, $sterling_id, "Exactly", "", "sterling_exactly.ogg" );
+            $this->createClip( $manager, $sterling_id, "Stuffing Fabergé Eggs", "Fabergé Eggs", "sterling_fabrige_eggs.ogg" );
+            $this->createClip( $manager, $sterling_id, "Fatty Boom Boom", "", "sterling_fattyboomboom.ogg" );
+            $this->createClip( $manager, $sterling_id, "Fuh fuh fuh fight!", "Fight!", "sterling_fight.ogg" );
+            $this->createClip( $manager, $sterling_id, "Oh, for fucks sake.", "Fucks sake", "sterling_fuckssake.ogg" );
+            $this->createClip( $manager, $sterling_id, "He is gonna cum ON ya!", "Cum Vicinity", "sterling_generalvicinity.ogg" );
+            $this->createClip( $manager, $sterling_id, "Don't Give A Shit", "", "sterling_giveashit.ogg" );
+
+            $this->createClip( $manager, $sterling_id, "SM - Why Isn't Holmes...Spider-Man?", "Holmes Spider-Man", "sterling_whyholmesspiderman.ogg" );
+            $this->createClip( $manager, $sterling_id, "SM - Goddamnit Peter Parker!", "Parker!", "sterling_goddamnitparker.ogg" );
+            $this->createClip( $manager, $sterling_id, "SM - Goddamnit Peter Parker! (Long)", "Parker! (Long)", "sterling_jameson_ex.ogg" );
+            $this->createClip( $manager, $sterling_id, "SM - Get Me Spidered Man!", "Get Me", "sterling_jameson.ogg" );
+            $this->createClip( $manager, $sterling_id, "SM - Haven't Been Bitten Right Spider", "Right Spider", "sterling_haventbeenbitten.ogg" );
+            $this->createClip( $manager, $sterling_id, "SM - How Much Radiation?", "Laws of Averages", "sterling_law_of_averages.ogg" );
+            $this->createClip( $manager, $sterling_id, "SM - We Got A Mind Meld", "Mind Meld", "sterling_mindmeld.ogg" );
+
+            $this->createClip( $manager, $sterling_id, "Half Listening", "", "sterling_halflistening.ogg" );
+            $this->createClip( $manager, $sterling_id, "I'm In The Mood to Be Aggressive ", "Have a go", "sterling_havago.ogg" );
+            $this->createClip( $manager, $sterling_id, "My Hormones Are Out of Whack", "Hormones", "sterling_hormones.ogg" );
+            $this->createClip( $manager, $sterling_id, "In The Mood for Birds", "In The Mood", "sterling_inthemood.ogg" );
+
+            $this->createClip( $manager, $sterling_id, "Get Working Lazy Fat Cunt!", "Lazy Fat Cunt", "sterling_lazyfatcunt.ogg" );
+            $this->createClip( $manager, $sterling_id, "So That'S A Letdown", "Letdown", "sterling_letdown.ogg" );
+            $this->createClip( $manager, $sterling_id, "Gladly Lay Down My Life", "Lady Down Life", "sterling_lifeleavemybody.ogg" );
+            $this->createClip( $manager, $sterling_id, "I Want My Massive Black Dildo Back", "Black Dildo", "sterling_massiveblackdildo.ogg" );
+
+            $this->createClip( $manager, $sterling_id, "You No Good Piece of Shit!", "Piece of Shit!", "sterling_nogoodpieceofshit.ogg" );
+            $this->createClip( $manager, $sterling_id, "Anus Pain Concern", "Anus Pain", "sterling_painus.ogg" );
+            $this->createClip( $manager, $sterling_id, "Phil Collins - Feel It", "P.Collins 1", "sterling_philcollins2.ogg" );
+            $this->createClip( $manager, $sterling_id, "Phil Collins - Drums", "P.Collins 2", "sterling_philcollins.ogg" );
+            $this->createClip( $manager, $sterling_id, "Podtoid Drinking Game", "Drinking Game", "sterling_podtoiddrinkinggame.ogg" );
+            $this->createClip( $manager, $sterling_id, "Podtoid Listeners Love Hearing...", "YYY", "sterling_podtoidlisteners.ogg" );
+            $this->createClip( $manager, $sterling_id, "Preposterous Video Game Name", "Video Game Name", "sterling_preposterous_videogame.ogg" );
+            $this->createClip( $manager, $sterling_id, "Profuse Sex Apologies", "Sex Apologies", "sterling_profuseapologies.ogg" );
+            $this->createClip( $manager, $sterling_id, "Sheep In A Headlock", "Headlock", "sterling_sheepheadlock.ogg" );
+            $this->createClip( $manager, $sterling_id, "Always Wanted To Slap a Horse", "Horse Slap", "sterling_slapahorse.ogg" );
+            $this->createClip( $manager, $sterling_id, "Song 1", "Song #1", "sterling_song1.ogg" );
+            $this->createClip( $manager, $sterling_id, "Song 2 (Kill the World)", "Song #2", "sterling_song2_killtheworld.ogg" );
+            $this->createClip( $manager, $sterling_id, "Song 3", "Song #3", "sterling_song_hibbehdibbehdah.ogg" );
+            $this->createClip( $manager, $sterling_id, "Song 4 (Suck a Duck Boner)", "Song #4", "sterling_suckaduckboner.ogg" );
+            $this->createClip( $manager, $sterling_id, "Suck a Dick at Christmas", "Xmas Dick", "sterling_suckadickatxmas.ogg" );
+            $this->createClip( $manager, $sterling_id, "Suck a Video Game Character's Cock", "Video Game Cock", "sterling_suckvideogames.ogg" );
 
             $this->createClip( $manager, $zim_id, "65", "YYY", "zim_266_swollenmember.ogg" );
             $this->createClip( $manager, $zim_id, "All fours", "All fours", "zim_allfours.ogg" );
@@ -157,7 +162,14 @@
         {
             $clip = new Soundclip();
             $clip->setTitle( $title );
-            $clip->setShortTitle( $short_title );
+
+            if ( empty( $short_title ) ) {
+                $clip->setShortTitle( $title );
+            }
+            else {
+                $clip->setShortTitle( $short_title );
+            }
+
             $clip->setPath( $filename );
             $cat = new Category();
             $clip->setCategory( $category );

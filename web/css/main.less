@@ -10,7 +10,7 @@ body {
 }
 
 html, body {
-    height:  100%;
+    //    min-height: 100%;
     padding: 0;
     margin:  0;
 }
@@ -63,41 +63,163 @@ html, body {
     max-width:    800px;
     margin-left:  auto;
     margin-right: auto;
+    background:   black;
+    box-shadow:   0 0 50px black;
+}
+
+#Header, #Footer {
+    position: fixed;
+    z-index:  999;
 }
 
 #Footer {
-    opacity:    0.50;
-    font-size:  0.8rem;
-    text-align: center;
+    bottom:     0;
+    background: black;
+}
+
+#Footer {
+    //    opacity:    0.50;
+    font-size:      0.8rem;
+    text-align:     center;
+    padding-bottom: 0.5rem;
 
     a {
         color: white;
+    }
+
+    #ButtonHelp {
+        .ButtonType;
+        background:    @pt-help;
+        margin-bottom: 1rem;
+        a {
+            color:           black;
+            text-decoration: none;
+        }
     }
 }
 
 #Content {
     background: #404040;
     min-height: 70%;
-    overflow:   hidden;
-    position:   relative;
+    overflow-x: hidden;
 }
 
 #Content:empty:before {
     content: '\200b'; // unicode zero width space character
 }
 
+.SoundButton {
+    background:          #606060;
+    color:               white;
+    padding:             1rem;
+    font-family:         "Roboto Condensed";
+    flex:                300px;
+    text-align:          center;
+    margin:              0.5rem;
+    align-self:          auto;
+    box-shadow:          1px 1px black;
+    text-shadow:         0px 0px 8px black;
+    cursor:              pointer;
+    &:hover {
+        background-color: #606060 - #111111;
+        transition:       0.15s;
+    }
+
+    user-select:         none;
+    -webkit-user-select: none;
+    -moz-user-select:    none;
+    -ms-user-select:     none;
+}
+
 #CarouselContainer {
-//    width:      300%;
-    transition: all 0.5s;
+    transition: all 0.15s ease-out;
     position:   relative;
+
     .page {
         float: left;
     }
 
-//    &:hover {
-//        //        background: red !important;
-//        position:  relative;
-//        transform: translateX(-33.333%);
-//
-//    }
+    .page_name {
+        background:  black;
+        color:       white;
+        font-weight: bold;
+        font-size:   small;
+        text-align:  center;
+    }
+
+    .button-container {
+        ul {
+            list-style-type: none;
+            margin:          0;
+            padding:         0;
+            display:         inline-flex;
+            flex-wrap:       wrap;
+
+            li {
+
+                //&:extend(.SoundButton);
+                .SoundButton;
+            }
+        }
+    }
+
+    .category-banner {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+/************* HELP **************/
+
+#HelpBox {
+    position:     fixed;
+    visibility:   hidden;
+    margin-left:  auto;
+    margin-right: auto;
+    opacity:      0;
+    left:         0;
+    right:        0;
+
+    top:          100%;
+
+    padding:      3em;
+
+    z-index:      9999;
+    background:   gold;
+    box-shadow:   0px 0px 10px black;
+    width:        75%;
+    max-width:    500px;
+
+    //    object-position: middle;
+
+    .help-title {
+        color:       white;
+        font-weight: bold;
+        font-size:   2em;
+        text-shadow: 0 0 5px #FA0 - #AAA;
+        text-transform: uppercase;
+    }
+
+    .help-content {
+        color:     black;
+        font-size: 1em;
+
+    }
+
+    .help-content-desktop {
+    }
+
+    &.show {
+        top:        40%;
+        opacity:    0.95;
+        visibility: visible;
+        transition: all 0.5s ease-out;
+    }
+    &.hide {
+        top:        100%;
+        opacity:    0;
+        visibility: hidden;
+        transition: all 0.5s ease-in;
+    }
 }

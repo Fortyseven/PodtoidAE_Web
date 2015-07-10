@@ -6,10 +6,10 @@ var Soundboard = function ()
 
     this.Init = function ()
     {
-        button_container = $( "#ButtonContainer" );
-        if ( !button_container.length ) {
-            throw "Could not find #ButtonContainer";
-        }
+        //button_container = $( "#ButtonContainer" );
+        //if ( !button_container.length ) {
+        //    throw "Could not find #ButtonContainer";
+        //}
 
         try {
             audio = new Audio();
@@ -26,29 +26,9 @@ var Soundboard = function ()
 
     };
 
-    this.PlaySound = function ( sound_id )
+    this.PlaySound = function ( sound_url )
     {
-        var path;
-
-        switch ( sound_id ) {
-            case 0:
-                path = "/assets/sounds/holmes_266_ughgross.ogg";
-                break;
-            case 1:
-                path = "/assets/sounds/holmes_allshitandaids.ogg";
-                break;
-            case 2:
-                path = "/assets/sounds/holmes_assisnotok.ogg";
-                break;
-            case 3:
-                path = "/assets/sounds/holmes_buttdie.ogg";
-                break;
-            case 4:
-                path = "/assets/sounds/holmes_dowhateveryouwant.ogg";
-                break;
-            default:
-                break;
-        }
+        var path = "/assets/sounds/" + sound_url;
         this.Play( path );
     };
 

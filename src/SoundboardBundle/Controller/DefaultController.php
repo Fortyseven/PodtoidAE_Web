@@ -34,6 +34,7 @@
                 }
 
                 $out_struct[ "category" ][ $cat->getName() ][ "clips" ] = $arr;
+                $out_struct[ "category" ][ $cat->getName() ][ "name" ]  = $cat->getName();
             }
 
             return [ "data" => $out_struct ];
@@ -53,7 +54,7 @@
                 $arr = [ ];
 
                 $clips = $man->getRepository( "SoundboardBundle:Soundclip" )->findBy( [ "category" => $cat ] );
-                
+
                 foreach ( $clips as $clip ) {
                     $arr[ ] = [
                             "title"       => $clip->getTitle(),
