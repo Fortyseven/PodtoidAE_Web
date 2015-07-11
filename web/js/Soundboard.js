@@ -28,7 +28,7 @@ var Soundboard = function ()
 
     this.PlaySound = function ( sound_url )
     {
-        var path = "/assets/sounds/" + sound_url;
+        var path = "assets/sounds/" + sound_url;
         this.Play( path );
     };
 
