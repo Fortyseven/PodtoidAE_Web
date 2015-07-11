@@ -18,3 +18,5 @@
 /app/db/apps.db
 *~
 web/uploads/screenshots/*
+app/data.db3
+app/sessions
